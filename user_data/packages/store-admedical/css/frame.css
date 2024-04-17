@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* フレーム
+----------------------------------------------- */
+div#container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #fff;
+	text-align: left;
+}
+
+#container:after {/* firefox背景色表示用 */
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+div#leftcolumn {
+	float: left;
+	width: 20%;
+	margin-right: 30px;
+}
+
+div#rightcolumn {
+	float: right;
+	width: 20%;
+	margin-left: 30px;
+}
+
+/* メインコンテンツ
+----------------------------------------------- */
+/* 3カラム設定 */
+div#three_maincolumn {
+	float: left;
+	width: 54%;
+	margin:0 auto;
+}
+
+/* 2カラム設定 */
+div#two_maincolumn {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 77%;
+}
+
+/* 1カラム設定 */
+div#one_maincolumn {
+	margin: 0;
+	padding: 0;
+}

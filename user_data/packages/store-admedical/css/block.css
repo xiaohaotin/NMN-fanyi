@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/* Start For Block */
+
+/* Block Header ------------------------------- */
+
+div#bloc_head {
+	margin:0 auto;
+	padding:3px 0;
+	border-bottom: 2px solid #444;
+	clear:both;
+
+}
+
+div#bloc_head .t_in_cart {
+	margin:0;
+	padding: 2% 15%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	background: url("../img/icon/icon_cart.png") no-repeat 1% 50%;
+}
+.t_login {
+	margin:0;
+	padding: 2% 15%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	background: url("../img/icon/icon_login.png") no-repeat 1% 50%;
+}
+
+.t_search {
+	margin:5px 0 15px 0;
+	padding: 3% 15%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 1px dotted #333;
+	background: url("../img/icon/icon_search.png") no-repeat 1% 50%;
+}
+	
+
+.txt10 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #333;
+}
+
+.t_category {
+	margin:0;
+	padding: 5px 7%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	background: url("../img/icon/icon_category.png") no-repeat 1% 50%;
+}
+
+#leftcolumn .t_category, #rightcolumn .t_category{
+	padding: 2% 15%;
+	background: url("../img/icon/icon_category.png") no-repeat 1% 50%;
+	}
+
+
+.t_ranking {
+	margin:0;
+	padding: 0 20%;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	background: url("../img/icon/icon_ranking.png") no-repeat 3% 50%;
+}
+
+
+/* -------------------------------------------- */
+
+/* In Cart Block ------------------------------ */
+div#cartarea {
+	margin: 0 0 7% 0;
+	width: 100%;
+	padding: 2% 0;
+	background-color: #fff;
+}
+
+div#cartarea p {
+	margin:5px auto 10px auto;
+	padding:0;
+	overflow: hidden;
+}
+
+div#cartarea p.item {
+	padding: 0 0 10px 0;
+	border-bottom:1px dotted #999;
+}
+
+/* -------------------------------------------- */
+
+/* Category Block ----------------------------- */
+div#categoryarea {
+	margin: 0 0 7% 0;
+	width: 100%;
+	padding:0;
+	background-color: #fff;
+	overflow:hidden;
+}
+
+/* -------------------------------------------- */
+
+/* Guide Link --------------------------------- */
+#guidearea {
+	margin:0 auto 10% auto;
+	line-height: 0;
+}
+
+/* -------------------------------------------- */
+
+
+/* Login Block -------------------------------- */
+div#loginarea {
+	margin: 0 0 7% 0;
+	width: 100%;
+	padding: 2% 0;
+	background-color: #fff;
+}
+
+div#loginarea .welcome {
+    padding:5px 10px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+div#loginarea .welcome span {
+    color: #d96040;
+    padding: 0 5px;
+}
+
+div#loginarea .welcome .w_point {
+    background: #d96040;
+    margin: 3px 0;
+    padding: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+div#loginarea p {
+	margin:5px auto 10px auto;
+	padding:0;
+	line-height: 1.2rem;
+}
+
+div#loginarea p span {
+	font-size: 12px;
+	margin-left:5px;
+	padding:0;
+}
+
+div#login img {
+	padding: 0 5px 0 0;
+	vertical-align: bottom;
+}
+
+#loginarea .box96 {
+	width: 82%;
+	border: solid 1px #ccc;
+	padding:2%;
+	font-size:0.8rem;
+}
+
+
+
+
+/* -------------------------------------------- */
+
+/* Search Block ------------------------------- */
+div#searcharea {
+ 	margin: 0 0 7% 0;
+    padding: 2% 5%;
+    background-color: #fff;
+    border: 1px dotted #ccc;
+}
+
+div#searcharea p {
+	overflow: hidden;
+}
+
+#searcharea .box142 {
+	margin:1% 0 10% 0;
+	padding:2%;
+	width: 90%;
+	background: #fff;
+	border: solid 1px #ccc;
+	font-size:14px;
+}
+
+#searcharea .box47 {
+	margin:1% 2% 1% 0;
+	padding:2%;
+	width: 70%;
+	background: #fff;
+	border: solid 1px #ccc;
+}
+/* -------------------------------------------- */
+
+/* Calender Block ----------------------------- */
+
+/*真ん中配置*/
+#block-calendar {
+	width:100%;
+	margin:0;
+	padding:5% 0;
+	background-color:#fff;
+	overflow: hidden;
+}
+
+#block-calendar table {
+    border-collapse: collapse;
+    margin: 1%;
+    text-align: center;
+    width: 48%;
+    float: left;
+}
+
+#block-calendar th, #block-calendar td {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+	text-align:center;
+}
+
+#block-calendar th {
+	background: #fff;
+	color: #555;
+	text-align:center;
+}
+
+#block-calendar .off {
+	background: #fff;
+	color: #ff0000;
+}
+
+#block-calendar caption {
+	color: #555;
+	padding:10px;
+	font-size:15px;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+
+/*左右配置*/
+#leftcolumn #block-calendar, 
+#rightcolumn #block-calendar
+{
+	width:100%;
+	margin:0;
+	padding:5% 0;
+	background-color:#fff;
+	overflow: hidden;
+}
+
+#leftcolumn #block-calendar table, 
+#rightcolumn #block-calendar table
+{
+	border-collapse: collapse;
+	margin: 1% auto;
+	text-align:center;
+	width: 100%;
+}
+
+#leftcolumn #block-calendar th, #block-calendar td,
+#rightcolumn #block-calendar th, #block-calendar td
+{
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+	text-align:center;
+}
+
+#leftcolumn #block-calendar th, 
+#rightcolumn #block-calendar th
+{
+	background: #fff;
+	color: #555;
+	text-align:center;
+}
+
+#leftcolumn #block-calendar .off,
+#rightcolumn #block-calendar .off
+ {
+	background: #fff;
+	color: #ff0000;
+}
+
+#leftcolumn #block-calendar caption,
+#rightcolumn #block-calendar caption
+ {
+	color: #555;
+	padding:10px;
+	font-size:15px;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+
+/* -------------------------------------------- */
+
+/* Bannar ------------------------------------- */
+ul#banner {
+	padding: 15px 0 0 0;
+}
+
+#banner li {
+	padding: 0 0 10px 0;
+}
+
+/* -------------------------------------------- */
+
+
+
+/* Button Type Input --------------------- */
+input[type='image'] {
+	border: none;
+}
+
+input[type='image'].box190 {
+	width: 190px;
+	height: 30px;
+}
+
+input[type='image'].box180 {
+	width: 180px;
+	height: 30px;
+}
+
+input[type='image'].box150 {
+	width: 150px;
+	height: 30px;
+}
+
+input[type='image'].box140 {
+	width: 140px;
+	height: 30px;
+}
+
+input[type='image'].box130 {
+	width: 130px;
+	height: 30px;
+}
+
+input[type='image'].box51 {
+	width: 51px;
+	height: 22px;
+}
+
+/* -------------------------------------------- */
+
+/* End For Block */

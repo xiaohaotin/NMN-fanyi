@@ -1,0 +1,726 @@
+@charset "utf-8";
+
+/* 下層共通指定
+----------------------------------------------- */
+div#shoppingcolumn {
+	width: 100%;
+    margin: 2% auto;
+}
+
+div#shoppingcolumn a{text-decolation:none;}
+
+/* ヘッダー
+----------------------------------------------- */
+div#shoppingcolumn .head {
+	margin: 5px auto 10px;
+    font-size: 160%;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+	font-family: Helvetica, san-serif;
+}
+
+div#shoppingcolumn .head2 {
+	margin: 5px auto 10px;
+    font-size: 140%;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+	font-family: Helvetica, san-serif;
+}
+
+
+div#shoppingcolumn .subhead {
+	margin:0 auto 0 auto;
+	padding:0;
+    font-size: 120%;
+	font-weight: nomal;
+	background-color:#fff;
+	font-family: Helvetica, san-serif;
+	}
+
+div#shoppingcolumn .t_cartin {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_cart.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_login {
+	padding: 8px 40px;
+	color: #000;
+	background-image:none;
+	font-size:16px;
+	background: url("../img/icon/icon_login.png") no-repeat 1% 48%;
+}
+
+div#shoppingcolumn .t_nomem {
+	padding: 8px 44px;
+	color: #000;
+	background: url("../img/icon/icon_privacy.png") no-repeat 2% 48%;
+}
+
+div#shoppingcolumn .t_payment {
+	padding: 8px 0px;
+	color: #000;
+	/*background: url("../img/icon/icon_deli.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_conf {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_cate_head.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_comp {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_comp.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_method {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_method.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_time {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_time.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_e_contact {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_contact.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_point {
+	padding: 8px 0;
+	color: #000;
+	/*background: url("../img/icon/icon_point.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_inpday {
+	padding: 8px 0px;
+	color: #000;
+	/*background: url("../img/icon/icon_time.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn .t_deliv {
+	padding: 8px 0px;
+	color: #000;
+	/*background: url("../img/icon/icon_deli.png") no-repeat 2% 48%;*/
+}
+
+div#shoppingcolumn table {
+	width: 950px;
+}
+
+div.area_cont{
+	width:900px;
+	margin:0 auto;
+}
+
+/* h3
+----------------------------------------------- */
+
+div#shoppingcolumn .have{
+	margin: 0 0;
+	padding:10px 10px 10px 40px;
+	color:#333;
+	font-weight:bold;
+	font-size:16px;
+	background: url("../img/icon/icon_head.png") no-repeat 1% 50%;
+}
+
+div#shoppingcolumn .d_have{
+	margin: 0 0;
+	padding:10px 10px 10px 40px;
+	color:#333;
+	font-weight:bold;
+	font-size:16px;
+	background: url("../img/icon/icon_head.png") no-repeat 1% 50%;
+}
+
+
+/* Cart Table
+----------------------------------------------- */
+
+div#shoppingcolumn table{
+	width: 100%;
+	margin: 15px auto ;
+	border-top: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: left;
+	font-size:14px;
+}
+
+div#shoppingcolumn table th{
+	padding: 8px;
+	border-bottom: 1px solid #ccc;
+	color: rgb(0,0,0);
+	background: #f0f0f0;
+	font-weight: normal;
+}
+
+div#shoppingcolumn table td {
+	padding: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+div#shoppingcolumn table .qponbg {
+    background-color: #e6f8fb;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+div#shoppingcolumn table .totalbg {
+    background-color: #fef0f0;
+    border: 5px solid #ffd4d4;
+}
+
+div#shoppingcolumn table .righttd{
+	text-align: right;
+	border-right: 1px solid #ccc;
+}
+
+div#shoppingcolumn .qpon_pr {
+    color: #e20000;
+    font-weight: normal;
+}
+
+div#shoppingcolumn .price {
+    color: #e20000;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+/*定期●回総合計*/
+div#shoppingcolumn table .totalreg {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+div#shoppingcolumn .reg_price {
+    color: #535353;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+div#shoppingcolumn table .bdnone{
+    text-align: right;
+}
+
+div#shoppingcolumn .regular_dt{border-radius: 5px;border:3px solid #eee;padding:1.2%;}
+div#shoppingcolumn .regular_dt h3 {margin: 0 !important;padding: 0;font-weight: 450 !important;font-size: 1.3em;color: #000;}
+div#shoppingcolumn .regular_dt h4 {margin: 0 !important;padding: 10px 0 0 0;font-weight: 450 !important;font-size: 1.2em;color: #000;}
+div#shoppingcolumn .regular_dt .ttl {width: 100%;background: #767676;color: #fff;text-align: left !important;margin: 5px 0 0 0;padding: 10px 0;letter-spacing: 0.1em;font-size: 1.2em;display: inline-block;font-weight: 500;border-top: 1px solid #ccc;}
+div#shoppingcolumn .regular_dt table {width: 100% !important;margin: 0 auto 10px auto;border-collapse: collapse;text-align: left;font-size: 14px;color: #000;}
+div#shoppingcolumn .regular_dt table th{text-align: center;padding:5px 10px;background:#f6f6f6;border-bottom:1px solid #dedede;}
+div#shoppingcolumn .regular_dt table td {padding: 5px 10px;}
+div#shoppingcolumn .regular_dt table .cttd{text-align: center;}
+div#shoppingcolumn .regular_dt table .lftd{text-align: left;}
+div#shoppingcolumn .regular_dt table .rttd{text-align: right;}
+div#shoppingcolumn .regular_dt table .pd10{padding:10px !important;}
+div#shoppingcolumn .regular_dt table .bgnone{background:none !important;}
+div#shoppingcolumn .regular_dt table .bd_rt{border-right: 1px solid #dedede;}
+div#shoppingcolumn .regular_dt table .totalreg {background-color: #f0f9fc;border: 5px solid #d4f4fe;}
+div#shoppingcolumn .regular_dt table .totalreg td {padding: 8px;font-size: 1.1em;}
+div#shoppingcolumn .regular_dt .reg_price {color: #000;font-weight: 600;font-size: 1.1em;}
+div#shoppingcolumn .regular_dt .bdnone {text-align: right;padding: 10px;font-weight: 600;}
+div#shoppingcolumn .reg_memo {margin-top: 10px;text-align: left;line-height: 1.5rem;}
+div#shoppingcolumn .reg_memo p{background: #f6fef0;padding: 10px;border-radius:5px;}
+
+/* カートの中
+----------------------------------------------- */
+
+.totalmoneyarea {
+	width: 100%;
+   　margin: 0 auto; 
+    padding: 0;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+	font-size: 14px;
+    line-height: 1.5em;
+}
+
+
+div#shoppingcolumn_cart th {
+	text-align: center;
+}
+
+div#shoppingcolumn table th.resulttd {
+	text-align: right;
+}
+
+div#shoppingcolumn td#quantity {
+	text-align: center;
+	width: 90px;
+}
+
+select.quantity_initial {
+	float: initial;
+}
+
+div#shoppingcolumn ul#quantity_level li {
+	display: inline;
+	padding: 3px;
+}
+
+div#shoppingcolumn .empty {
+	text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+.pr_amt{
+	background-color: #fff1f6;
+    text-align: center;
+    margin: 2% 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.pr_amt p{line-height: 1.5em;}
+
+.tblareabtn{margin:30px 0;overflow:hidden;}
+.tblareabtn p{text-align:center;padding:10px 0;margin:0 auto;}
+
+#shoppingcolumn .tblareabtn .btn_ups {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* お客様情報入力
+----------------------------------------------- */
+div#shoppingcolumn_customer {
+
+}
+
+.flowarea {
+	margin: 20px auto;
+	padding:5px;
+	overflow:hidden;
+}
+
+
+.flowarea ul {
+	clear:both;
+}
+
+.flowarea li {
+	padding:5px 30px 5px 5px;
+	float:left;
+	background: url("../img/icon/icon_guide.png") no-repeat 96% 50%;
+}
+
+.flowarea .inon {
+	padding:5px 30px 5px 5px;
+	float:left;
+	background: none;
+}
+
+.flowarea .txt_green{
+	color:#60cb26;
+}
+
+div#shoppingcolumn_customer th em {
+	color: #000;
+	font-weight: bold;
+}
+
+div#shoppingcolumn_customer .box120 {
+	width: 120px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn_customer .box60 {
+	width: 60px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+
+div#shoppingcolumn_customer .box380 {
+	width: 380px;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn_customer .box320 {
+	width: 320px;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn_customer .zipimg img {
+	margin: 5px 0 0 0;
+}
+
+/* お届け先指定
+----------------------------------------------- */
+
+.addbtn {
+	margin: 10px 0 0 0;
+}
+
+.deli_word {
+	padding:10px;
+}
+
+
+/*nomenber
+----------------------------------------------- */
+div#shoppingcolumn .nomenber_tb{
+	width: 100%;
+	margin:0 auto;
+	}
+div#shoppingcolumn .nomenber_tb table{
+	width: 100%;
+	margin: 15px auto 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+	border-top: none;
+}
+
+div#shoppingcolumn .nomenber_tb table th{
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	font-weight: normal;
+}
+
+div#shoppingcolumn .nomenber_tb table td {
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+div#shoppingcolumn .deliv_sitei{padding:2% 0;margin:0 auto}
+
+div#shoppingcolumn .deliv_sitei table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    border-top: none;
+}	
+
+div#shoppingcolumn .deliv_sitei table th{
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	font-weight: normal;
+}
+
+div#shoppingcolumn .deliv_sitei table td {
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+
+.another_deliv{background:#f0f0f0;padding:2%;margin:0 auto;}
+
+
+
+.txt_center{text-align:center;padding:10px 0 ;margin:0 auto;}
+
+/* お届け時間・日程の指定
+----------------------------------------------- */
+
+
+.t_daybox{
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden;
+    padding:10px 0;
+}
+
+#shoppingcolumn .mgt10{margin-top:10px;}
+#shoppingcolumn .mgt15{margin-top:15px;}
+#shoppingcolumn .mgt20{margin-top:20px;}
+#shoppingcolumn .pdt20{padding-top:10px;}
+
+div#shoppingcolumn .t_daybox label {
+    font-size: 16px;
+    font-weight: 500;
+	margin-left: 10px;
+}
+
+div#shoppingcolumn .t_daybox select {
+    font-size: 1.1em;
+}
+
+
+div#shoppingcolumn .t_daybox input[type="radio"], input[type="checkbox"],
+div#shoppingcolumn .t_daybox2 input[type="radio"], input[type="checkbox"]  {
+    font-size: x-large;
+    padding: 0;
+    margin: 10px 0 10px 5px;
+    box-sizing: border-box;
+}
+
+div#shoppingcolumn .shopping_calendar {
+    width: 100%;
+    margin: 1% auto;
+    padding: 0 0 2% 0;
+    border-bottom: 1px dotted #999;
+    overflow: hidden;
+    float: left;
+}
+
+div#shoppingcolumn .tday {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    color: #555;
+    text-align: left;
+	background-color: #f6f6f6;
+}
+
+div#shoppingcolumn .tday .ft_red{color:#C30;}
+div#shoppingcolumn .tday span {
+    margin-right: 30px;
+    border-left: 1px solid #666;
+    padding: 0 30px 0 10px;
+}
+
+/* お支払い方法・お届け時間等の指定
+----------------------------------------------- */
+div#shoppingcolumn .payarea {
+	margin: 0 auto;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #555;
+}
+
+div#shoppingcolumn h3 {
+	margin: 0 0 15px 0;
+}
+
+div#shoppingcolumn .payarea02 {
+	margin: 0 auto;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #555;
+    overflow: hidden;
+}
+
+
+div#shoppingcolumn .payarea02 em {
+	font-weight: bold;
+	font-size:0.85rem;
+	color: #333;
+}
+
+div#shoppingcolumn .payarea table {
+}
+
+div#shoppingcolumn .payarea table th {
+	text-align: center;
+}
+
+div#shoppingcolumn payarea02 .area660 {
+	width: 100%;
+	margin: 5px auto;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn .pointarea {
+	margin: 10px auto;
+}
+
+div#shoppingcolumn .pointarea p {
+	line-height:1.5rem;
+}
+
+
+div#shoppingcolumn .pointarea div {
+}
+
+
+
+/* ポイント使用の指定
+----------------------------------------------- */
+div#shoppingcolumn .use_point_area {
+    margin: 0;
+    padding: 0 0 10px 10px;
+    line-height: 150%;
+    overflow: hidden;
+    background: #fefefe;
+    width: 51%;
+    display: inline-block;
+}
+
+div#shoppingcolumn .use_point_area li{
+	padding: 10px 0;
+	border-bottom: 1px #ddd solid;
+}
+
+
+
+
+/* 確認
+----------------------------------------------- */
+
+div#shoppingcolumn_shopping table.delivname thead th {
+	width: 70%;
+	text-align: left;
+	font-weight: bold;
+}
+
+div#shoppingcolumn_shopping table.delivname tbody th {
+	text-align: left;
+	width: 155px;
+}
+
+div#shoppingcolumn_shopping table.delivname td {
+	text-align: left;
+	width: 55%;
+}
+
+div#shoppingcolumn .cf_ttl{
+	float:left;
+	padding:10px 0;
+	font-weight:bold;
+	font-size:14px;
+	color:#000;
+}
+
+
+/* 決済モジュール(決済情報入力画面)
+----------------------------------------------- */
+div#shoppingcolumn_shopping .box60 {
+	width: 60px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn_shopping .box120 {
+	width: 120px;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+/* ログイン
+----------------------------------------------- */
+
+div#shoppingcolumn .loginarea {
+	width: 46%;
+    margin: 2% 1%;
+    padding: 1%;
+    float: left;
+    min-height: 420px;
+    box-shadow: 0 2px 4px #ccc;
+    -webkit-box-shadow: 0 2px 4px #ccc;
+    -moz-box-shadow: 0 2px 4px #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+div#shoppingcolumn .loginarea .inputtext {
+	margin: 15px auto;
+}
+
+div#shoppingcolumn .loginarea .inputtext02 {
+	margin: 15px auto 0 auto;
+	font-size: 90%;
+	float:left;
+}
+
+div#shoppingcolumn .loginarea .inputbox {
+	width: 90%;
+	margin: 3% auto;
+	padding: 5%;
+	background: #f0f0f0;
+}
+
+div#shoppingcolumn .loginarea .inputbox .passwd {
+	margin: 15px 0 0 0;
+}
+
+div#shoppingcolumn .loginarea .inputbox .box250 {
+	width: 69%;
+	margin: 5px 0 0 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn .loginarea .inputbox .box275 {
+	width: 69%;
+	margin: 5px 0 0 28px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+div#shoppingcolumn .loginarea .inputbox02 {
+	width: 460px;
+	margin: 15px auto 0 auto;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+
+div#shoppingcolumn .box65 {
+	text-align:center;
+}
+
+
+/* エラー
+----------------------------------------------- */
+div#shoppingcolumn_error {
+}
+
+div#shoppingcolumn_error .messagearea {
+	margin: 15px auto 0 auto;
+	padding: 10px 5px;
+	border: 5px solid #ccc;
+	text-align: center;
+}
+
+div#shoppingcolumn_error .messagearea .error {
+	padding: 120px 0;
+}
+
+
+.lp_h3{margin: 15px 0 0 0;
+font-size: 1.2em;
+padding: 7px;
+color: #333;
+text-align: left;
+border-right: none;border-bottom: 2px solid #333;
+badkground:#fff;}
+
+
+/* アップセル定期購入に変更ボタン
+----------------------------------------------- */
+a#ups_button {
+    display: block;
+    line-height: 3.2em;
+    height: auto;
+    font-size: 1.5em;
+    margin: 4px auto 0;
+    width: 85%;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    vertical-align: top;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #28a108), color-stop(0.00, #64d549));
+    background: -webkit-linear-gradient(#64d549, #28a108);
+    background: -moz-linear-gradient(#64d549, #28a108);
+    background: -o-linear-gradient(#64d549, #28a108);
+    background: -ms-linear-gradient(#64d549, #28a108);
+    background: linear-gradient(#64d549, #28a108);
+    border: 1px solid #41b723;
+    box-shadow: inset 0 0 9px 0px rgb(255, 255, 255), 2px 2px 5px rgba(000,000,000,0.4);
+    -moz-box-shadow: inset 0 0 9px 0px rgb(255, 255, 255) ,2px 2px 5px rgba(000,000,000,0.4);
+    -webkit-box-shadow: inset 0 0 9px 0px rgb(255, 255, 255), 2px 2px 5px rgba(000,000,000,0.4);
+}

@@ -1,0 +1,207 @@
+
+/* Recomend,Recomend1 共通 ------------------------------------- */
+div#bloc_head_recommend {
+	text-align: center;
+	width: 100%;
+	margin: 30px 0 0 0;
+	background: url("../img/common/line.gif") center center repeat-x;
+}
+
+div#bloc_head_recommend h2 {
+	padding: 0 20px 0 30px;
+	color: #191919;
+	font-size: 18px;
+	line-height: 1.2em;
+	background-color: #fff;
+	font-weight: 400;
+	z-index: 9999;
+	width: 160px;
+	margin: 0 auto;
+}
+
+
+
+/* Recomend1 スライダー表示 ------------------------------------- */
+div#recommend_all2 {
+	margin:10px auto 30px auto;
+	padding:0;
+	height:300px;
+	overflow:hidden;
+	clear: both;
+}
+
+
+div#recomendarea2 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.recomendblock2 {
+	width: 100%;
+	margin:0;
+	overflow:hidden;
+}
+
+.recomendblock2 li{color: #666;}
+
+.recomendblock2 a{
+	color:#666;
+	text-decoration:none;width:100px;
+}
+
+.recomendblock2 h3 {height:30px;line-height:1rem;overflow:hidden;}
+
+.recomendblock2 a:hover{
+	text-decoration:underline;
+}
+
+.recomendblock2 p{padding:5px 0;}
+
+.reco_pic2{
+	margin: 0 0 10px 0px;
+	text-align: center;
+}
+
+.reco_pic2 h3{width:100px;}
+
+
+
+/* Recomend2〜5 固定表示------------------------------------- */
+
+/*#threemaincolumn*/
+div#recommend_all {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+div#recomendarea {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.recomendblock {
+    width: 20%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.recomendblock h3 {
+    /* height: 35px; */
+    padding: 5px 0;
+    line-height: 1rem;
+}
+
+.recomendblock li{color: #666;}
+
+.recomendblock img {
+	width:auto;
+	height: 120px;
+}
+
+.recomendblock a{
+	color:#666;
+	text-decoration:none;
+}
+
+.reco_pic{
+	margin: 0 0 10px 0;
+	text-align:center;
+}
+
+.reco_cmt{height:30px;font-size:12px;overflow:hidden;    word-break:break-all;}
+
+/*#leftcolumn・#rightcolumn
+----------------------------------------------- */
+
+#leftcolumn #recommend_all, 
+#rightcolumn #recommend_all {
+    margin: 10px auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#leftcolumn #bloc_head_recommend,
+#rightcolumn #bloc_head_recommend {
+	text-align: center;
+	width: 100%;
+	margin: 0 0 20px 0;
+	background: none;
+}
+
+#leftcolumn #bloc_head_recommend h2,
+#rightcolumn #bloc_head_recommend h2 {
+	padding: 0 20px 0 30px;
+	color: #191919;
+	font-size: 16px;
+	line-height: 1.2em;
+	background-color: #fff;
+	font-weight: 400;
+	z-index: 9999;
+	width: 160px;
+	margin: 0 auto;
+	border-bottom:2px solid #555;
+}
+
+
+#leftcolumn .recomendblock h3,
+#rightcolumn .recomendblock h3{
+    /* height: 35px; */
+    padding: 5px 0;
+    font-size: 80%;
+    line-height: 120%;
+}
+
+#leftcolumn #recomendarea,
+#rightcolumn #recomendarea
+ {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#leftcolumn .recomendblock, 
+#rightcolumn .recomendblock {
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+}
+
+#leftcolumn .recomendblock li{color: #666;}
+#rightcolumn .recomendblock li{color: #666;}
+
+#leftcolumn .recomendblock img, 
+#rightcolumn .recomendblock img {
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#leftcolumn .recomendblock p,
+#rightcolumn .recomendblock p {
+	display:none; /*display:blockに変えると価格、コメントが表示されます。*/
+}
+
+#leftcolumn .recomendblock a,
+#rightcolumn .recomendblock a{
+	color:#666;
+	text-decoration:none;
+}
+
+.recomendblock a:hover{
+	text-decoration:underline;
+}
+
+#leftcolumn .recomendblock a:hover,
+#rightcolumn .recomendblock a:hover{
+	text-decoration:underline;
+}
+
+#leftcolumn .reco_pic, 
+#rightcolumn .reco_pic {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+/* -------------------------------------------- */
+
+

@@ -1,0 +1,219 @@
+div#ranking_all {
+	width: 100%;
+	margin:1% 0;
+	padding:0;
+	overflow:hidden;
+}
+
+div#bloc_head_ranking {
+	text-align: center;
+	width: 100%;
+	margin: 0 0 20px 0;
+	background: url("../img/common/line.gif") center center repeat-x;
+}
+
+div#bloc_head_ranking h2 {
+	padding: 0 20px 0 20px;
+	color: #191919;
+	font-size: 18px;
+	line-height: 1.2em;
+	background-color: #fff;
+	font-weight: 400;
+	z-index: 9999;
+	width: 160px;
+	margin: 0 auto;
+}
+
+div#head_rankm {
+	margin:2% auto;
+	background:#fff;
+	border-bottom:2px solid #333;
+}
+
+div#head_rankm h2 {
+	padding: 8px 0 8px 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	background: url("../img/icon/icon_rank.png") no-repeat 0% 50%;
+}
+
+/*----------------------------------------------- */
+
+/* Ranking Top ------------------------------------- */
+
+.rankarea {
+	width: 18%;
+    margin: 0;
+    padding: 0 5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.rank_txt{
+	font-size:14px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+	padding:5px 0;
+	text-align:center;
+	
+}
+
+.rank_txt2{
+	font-size:14px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+	padding:5px 0;
+	
+}
+
+.rankrightblock {
+	margin:10px 0;
+	float:left;
+	min-height:65px;
+}
+
+.rankrightblock h3 a {
+	color:#555;
+	text-decoration:none;
+
+}
+
+.rank_pic{
+	max-width:100% !important;
+	float:left;
+}
+
+/* -------------------------------------------- */
+
+/* Ranking More ------------------------------------- */
+#rank_m_all {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+#rank_m_all  .rank_m_area {
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    border-bottom: 1px dotted #ccc;}
+
+
+#rank_m_all  .rank_m_pic{
+	float: left;
+    width: 15%;
+	}
+
+
+#rank_m_all  .rank_m_rightblock {
+	width: 65%;
+	margin:0;
+	padding:0 0 10px 30px;
+	float:left;
+}
+
+
+#rank_m_all h3 a {
+	font-size:18px;
+	padding:15px 0;
+	color:#555;
+	line-height:1.5em;
+	text-decoration:none;
+
+}
+
+/* -------------------------------------------- */
+
+/*左右配置*/
+
+#leftcolumn #ranking_all,
+#rightcolumn #ranking_all
+ {
+    width: 100%;
+    margin: 0 0 10% 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#leftcolumn #bloc_head_ranking, 
+#rightcolumn #bloc_head_ranking
+ {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 5px 0;
+    background-image: none;
+    border-bottom: 2px solid #555;
+}
+
+#leftcolumn #bloc_head_ranking h2, 
+#rightcolumn #bloc_head_ranking h2
+ {
+    padding: 0;
+    color: #191919;
+    font-size: 1rem;
+    line-height: 1.2em;
+    background-color: #fff;
+    font-weight: bold;
+    z-index: 9999;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+#leftcolumn .rankarea,
+#rightcolumn .rankarea 
+{
+	width: 80%;
+    margin: 5px 0;
+    padding: 0 5px;
+    float: none;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#leftcolumn .rank_txt,
+#rightcolumn .rank_txt
+{
+	font-size:14px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+	padding:5px 0;
+	text-align:center;
+	
+}
+
+#leftcolumn .rank_txt2,
+#rightcolumn .rank_txt2,
+{
+	font-size:14px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+	padding:5px 0;
+	
+}
+
+#leftcolumn .rankrightblock,
+#rightcolumn.rankarea .rankrightblock
+{
+	margin:10px 0;
+	float:left;
+	min-height:65px;
+}
+
+#leftcolumn .rankrightblock h3 a {
+	color:#555;
+	text-decoration:none;
+
+}
+
+#leftcolumn .rank_pic{
+	max-width:100% !important;
+	float:left;
+}

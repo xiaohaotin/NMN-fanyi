@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* お客様の声
+----------------------------------------------- */
+div#customervoicearea {
+  clear: both;
+  margin: 10px auto ;
+  padding: 1%;
+  border-top: 1px dotted #ccc;
+  overflow:hidden;
+}
+div#customervoicearea .title {
+  clear: both;
+  margin: 10px 20px 15px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div#customervoicearea h2 {
+	padding: 0 0 0 30px;
+	color: #333;
+	background: url("../img/icon/icon_voice.png") no-repeat 0% 70%;
+}
+
+div#customervoicearea .voicedate{
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	text-align: right;
+}
+
+div#customervoicearea .voicetitle{
+	padding: 5px 0;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div#customervoicearea li {
+  margin: 10px auto;
+  padding:10px;
+  background: #f6f6f6;
+}
+
+div#customervoicearea .head_review {
+  clear: both;
+  margin: 10px 0;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.voicecomment{margin:10px 0;}
+
+
+
+/* トラックバック
+----------------------------------------------- */
+div#trackbackarea {
+  clear: both;
+  margin: 10px auto;
+  padding: 1%;
+  border-top: 1px dotted #ccc;
+}
+
+div#trackbackarea .head{
+	clear:both;
+	margin:10px auto 10px auto;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div#trackbackarea h2 {
+  padding: 0 0 0 30px;
+  color: #333;
+  background: url("../img/icon/icon_voice.png") no-repeat 0% 70%;
+}
+
+div#trackbackarea h3 {
+	font-size: 100%;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+div#trackbackarea .box500 {
+	width: 500px;
+	padding: 5px;
+	margin: 0 0 10px 0;
+	border: solid 1px #ccc;
+}
+
+/* この商品を買った人はこんな商品も買っています
+----------------------------------------------- */
+div#whoboughtarea {
+  clear: both;
+  margin: 10px auto;
+  padding: 1% 0;
+  border-top: 1px dotted #ccc;
+  overflow:hidden;
+  }
+
+div#whoboughtarea .head{
+	clear:both;
+	margin:10px auto;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div#whoboughtarea h2 {
+	padding: 0 0 0 30px;
+	color: #333333;
+	background: url("../img/icon/icon_osusume.png") no-repeat 0% 70%;
+	
+}
+
+div.whoboughtblock {
+    width:100%;
+	clear: both;
+	float:left;
+}
+
+div.whoboughtleft {
+	/*float: left;
+	width: 13.8%;
+	min-height:240px;
+	margin:0 0 10px 0;
+	padding: 10px;*/
+	float: left;
+    width: 15.5%;
+    min-height: 240px;
+    margin: 0 0 10px 0;
+    padding: 3px;
+}
+
+div.whoboughtleft img {
+	display: block;
+    margin: 5px 0;
+}
+
+div.whoboughtleft p {
+	padding:5px 0;
+}
+
+div.whoboughtleft h3 {
+	font-size: 100%;
+	display:block;
+}
+
+div.whoboughtleft h3 a {
+	color:#000;
+	text-decoration:none;
+}
+
+div.whoboughtleft h3 a:hover {
+	text-decoration:underline;
+}
+
+
+/*div.whoboughtright {
+	float: left;
+	width: 90px;
+	min-height:220px;
+	margin:0 5px 10px 5px;
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 1px 6px #ccc;
+	-moz-box-shadow: 0 1px 6px #ccc;
+	-webkit-box-shadow: 0 1px 6px #ccc;
+}
+
+div.whoboughtright h3 {
+	font-size: 100%;
+}
+
+div.whoboughtright img {
+	display: block;
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+div.whoboughtright p {
+	margin: 0 0 5px 0;
+}*/

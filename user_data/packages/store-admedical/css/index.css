@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* FLASH
+----------------------------------------------- */
+div#flasharea {
+    width: 100%;
+    margin: 0 auto 2% auto;
+    clear: both;
+    background: url("../img/main/main_pic_bg.png");
+    background-repeat: repeat-x;
+}
+
+div#magazine_window{margin:0 auto 7% auto;overflow:hidden;}
+
+/*----------------------------------------------- */
+
+/* カテゴリーサムネイル表示用
+----------------------------------------------- */
+#categoryarea {margin: 5px 6px 0 6px;}
+#categoryarea ul.list{}
+#categoryarea ul.list li {display: block;margin-top:1px;padding:10px 0;background: #d6d6d6 url('../img/common/delta_icon.png') no-repeat 95% 50%;}
+#categoryarea ul.list li a{height:75px;padding: 0 8px;display: block;}
+#categoryarea ul.list li a:link {color: #565656; text-decoration: none;}
+#categoryarea ul.list li a:visited{color: #565656; text-decoration: none;}
+#categoryarea ul.list li a:hover {color: #565656; text-decoration: none;}
+#categoryarea ul.list .img {float:left;width:85px;height:100%;}
+#categoryarea ul.list .img span{
+width:75px;height:75px;
+display: inline-block;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;
+-webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+-moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+overflow:hidden;
+}
+#categoryarea ul.list .img span{background-size:cover;}
+#categoryarea ul.list .txt {/*background-color:#fff;*/height:100%;padding-left:5px;}
+#categoryarea ul.list .txt_one{/*background-color:#fff;*/height:100%;padding-left:5px;}
+#categoryarea ul.list p{height:75px;display:table-cell;vertical-align:middle;}
+
+/* タイトル1 */
+#categoryarea h2.title{
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #d6d6d6), color-stop(0.75, #dbdbdb), color-stop(0.56, #e2e2e2), color-stop(0.26, #f6f6f6), color-stop(0.00, #ffffff));
+background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 26%, #e2e2e2 56.00000000000001%, #dbdbdb 75%, #d6d6d6 100%);
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 26%, #e2e2e2 56.00000000000001%, #dbdbdb 75%, #d6d6d6 100%);
+background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 26%, #e2e2e2 56.00000000000001%, #dbdbdb 75%, #d6d6d6 100%);
+background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 26%, #e2e2e2 56.00000000000001%, #dbdbdb 75%, #d6d6d6 100%);
+background: linear-gradient(top, #ffffff 0%, #f6f6f6 26%, #e2e2e2 56.00000000000001%, #dbdbdb 75%, #d6d6d6 100%);
+font-size:12px;height:22px;color:#997d6f;padding: 5px 8px 0 8px;
+letter-spacing: 0px;text-shadow: 1px 1px 0px #fff;
+}
+#categoryarea h2.title .ttl {float:left;width:130px;}
+#categoryarea .mac h2.title{padding: 7px 8px 0 8px;}

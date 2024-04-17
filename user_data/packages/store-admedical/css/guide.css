@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+/* 下層共通指定 -------------------------- */
+div#guidecolumn {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	font-size:14px;
+	overflow:hidden;
+}
+
+div#guidecolumn p {
+	margin:0 auto;
+	padding:10px;
+	line-height:1.3rem;
+	/*width: 90%;*/
+	overflow: hidden;
+}
+
+div#guidecolumn a {
+	text-decoration: none;
+}
+
+div#guidecolumn a:hover {
+	text-decoration: underline;
+}
+
+div#guidecolumn .mini{
+	font-size: 12px;
+	padding:5px 0;
+	/*float:left;*/
+}
+.mini_add{
+	clear: both;
+	padding:1em 0 0;
+}
+
+
+.g_table {
+	width: 90%;
+	table-layout: fixed;
+}
+
+.g_tr{
+	margin: 0;
+	padding: 0;
+}
+
+.g_th {
+	margin: 0;
+	padding: 10px;
+	width: 160px;
+}
+.g_td {
+	margin: 0;
+	padding: 10px;
+}
+
+
+div#guidecolumn .ad{
+	float:left;
+}
+
+div#guidecolumn .yuubin{
+	float:left;
+}
+
+.fs10{   
+	font-size: 12px;
+    line-height: 14px;
+	text-decoration: underline;
+	
+}
+
+/* ------------------------------------------- */
+
+/* Cart Table
+----------------------------------------------- */
+
+div#guidecolumn table{
+	width: 100%;
+	margin: 20px auto 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+div#guidecolumn table th{
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	font-weight: normal;
+}
+
+div#guidecolumn table td {
+	padding:15px 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+/* ヘッダー ------------------------------- */
+
+div#guidecolumn .head {
+	margin:0 auto;
+	font-size: 120%;
+	font-weight: bold;
+	background:#fff;
+	/*border-bottom: 2px solid #333;*/
+	font-family: Helvetica, san-serif;
+}
+
+div#guidecolumn .head2 {
+    margin: 20px auto 0 auto;
+    padding: 10px 0 0 0;
+    font-size: 100%;
+    font-weight: bold;
+    background: #fff;
+    border-top: 1px dashed #ddd;
+    font-family: Helvetica, san-serif;
+}
+
+div#guidecolumn .t_about {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_about.png") no-repeat 1% 48%;
+}
+
+div#guidecolumn .t_contact {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_contact.png") no-repeat 1% 48%;
+}
+
+div#guidecolumn .t_order {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_tokutei.png") no-repeat 1% 48%;
+}
+
+div#guidecolumn .t_return {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_return.png") no-repeat 1% 48%;
+}
+
+div#guidecolumn .t_privacy {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_privacy.png") no-repeat 1% 48%;
+}
+
+div#guidecolumn .t_content {
+	padding: 8px 10px;
+	color: #333;
+	/*background: url("../img/icon/icon_content.png") no-repeat 1% 48%;*/
+}
+
+div#guidecolumn .t_entry {
+	padding: 8px 40px;
+	color: #333;
+	background: url("../img/icon/icon_entry.png") no-repeat 1% 48%;
+}
+
+/* -------------------------------------------- */
+
+/* お問い合わせ --------------------------- */
+
+.box120 {
+	width: 120px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.box60 {
+	width: 60px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.box380 {
+	width: 380px;
+	margin: 5px 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.area380 {
+	width: 380px;
+	height: 250px;
+	margin: 5px 0 0 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-size:1rem;
+}
+
+.zipimg img {
+	margin: 5px 0 0 0;
+}
+/* -------------------------------------------- */
+
+/* 会員登録 --------------------------------- */
+
+.area470 {
+	width: 660px;
+	height: 520px;
+	margin: 0 auto;
+	padding: 38px;
+	border: 1px solid #ccc;
+	font-size:12px;
+}
+.area500 {
+	width: 500px;
+	height: 520px;
+	margin: 0 auto;
+	padding: 19px;
+	border: 1px solid #ccc;
+	font-size:12px;
+}
+
+.box320 {
+	width: 320px;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+div#completetext {
+	width: 600px;
+	margin: 15px auto 0 auto;
+	padding: 15px;
+	border: 5px solid #ccc;
+}
+
+div#completetext em {
+	font-weight: normal;
+}
+
+div#completetext p{
+	padding: 20px 0 0 0;
+	text-align: left;
+}
+/* -------------------------------------------- *//*インプットタイプ
+----------------------------------------------- */
+div#guidecolumn input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+    margin-right: 6px;
+}
+
+div#guidecolumn input[type=radio] + label,
+div#guidecolumn input[type=checkbox] + label {
+    position: relative;
+     
+    display: inline-block;
+    margin-right: 12px;
+     
+    font-size: 14px;
+    line-height: 30px;
+     
+    cursor: pointer;
+}
+
+@media (min-width: 1px) {
+div#guidecolumn input[type=radio],
+div#guidecolumn input[type=checkbox] {
+        display: none;
+        margin: 0;
+    }
+div#guidecolumn input[type=radio] + label,
+div#guidecolumn input[type=checkbox] + label {
+        padding: 0 0 0 24px;
+    }
+div#guidecolumn input[type=radio] + label::before,
+div#guidecolumn input[type=checkbox] + label::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+         
+        background: #FFF;
+    }
+div#guidecolumn input[type=radio] + label::before {
+        border: 2px solid #ccc;
+        border-radius: 30px;
+    }
+div#guidecolumn input[type=checkbox] + label::before {
+        border: 2px solid #ccc;
+    }
+div#guidecolumn input[type=radio]:checked + label::after,
+div#guidecolumn input[type=checkbox]:checked + label::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+         
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+    }
+div#guidecolumn  input[type=radio]:checked + label::after {
+        left: 5px;
+         
+        width: 8px;
+        height: 8px;
+        margin-top: -4px;
+         
+        background: #3e86fc;
+        border-radius: 8px;
+    }
+div#guidecolumn input[type=checkbox]:checked + label::after {
+        left: 3px;
+         
+        width: 16px;
+        height: 8px;
+        margin-top: -8px;
+         
+        border-left: 3px solid #E71063;
+        border-bottom: 3px solid #E71063;
+         
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}

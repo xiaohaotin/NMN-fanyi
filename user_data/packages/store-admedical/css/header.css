@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* Header Logo new---------------------- */
+
+div#header {
+	width: 100%;
+	margin: 0 auto;
+	padding:0;
+	background: #fff;
+}
+
+div#head_inner{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+div#logo_space a {
+	float: left;
+	display: block;
+	margin: 10px 0 10px 10px;
+	width: 200px;
+	height: 70px;
+	background: url("../img/header/logo.png");
+}
+
+div#head_inner em {
+	display: none;
+}
+
+/* ---------------------------------- */
+
+/* Header Right --------------------- */
+
+div#information {
+	float: right;
+	margin-top:15px;
+}
+
+div#information ul{margin:10px 0 0 0;}
+
+div#information ul li {
+	position:relative;
+	margin:30px 0 0 2px;
+	height:20px;
+	font-size:14px;
+	float:left;
+	/*border-right:1px dotted #ccc;*/
+}
+
+/*会員登録 MYページ*/
+div#information .info_mb{margin: 5px 0 ;color: #666;padding:0px;}
+div#information .info_mb a {}
+div#information .info_mb a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)";  /* ie 8 */
+	-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7;              /* Safari 1.x */
+	zoom:1;}
+	
+	
+/*ログイン ログアウト*/
+div#information .info_mp{background: #fff;margin: 5px 0 ;color: #666;padding:5px;}
+div#information .info_mp a {background:url("../img/header/head_mg.png")1% 50% no-repeat;text-decoration:none;color:#555;padding:5px 5px 5px 30px;}
+div#information .info_mp a:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)";  /* ie 8 */
+	-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7;              /* Safari 1.x */
+	zoom:1;}
+
+/*カートを見る*/
+div#information .info_sc{ 
+	background: #fff;
+	margin: 0;
+	border:2px solid #288ae4;
+	padding:8px 10px 5px 10px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	overflow: hidden;
+}
+div#information .info_sc a {background: url("../img/header/head_ct.png") 2% 50% no-repeat;text-decoration: none;color: #288ae4;padding: 10px 0px 5px 30px;}
+div#information .info_sc a:hover{
+	text-decoration:none;
+	opacity:0.7;
+	filter: alpha(opacity=70);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)";  /* ie 8 */
+	-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7;              /* Safari 1.x */
+	zoom:1;}
+
+
+
+/* ---------------------------------- */
+
+/* Global Navi ---------------------- */
+
+div#g_navi {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  clear: both;
+}
+
+
+.dropmenu{
+  *zoom: 1;
+  list-style-type: none;
+  width: 1000px;
+  margin: 5px auto 30px auto;
+  padding: 0;
+}
+.dropmenu:before, .dropmenu:after{
+  content: "";
+  display: table;
+}
+.dropmenu:after{
+  clear: both;
+}
+.dropmenu li{
+  position: relative;
+  width: 19.8%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.dropmenu li a{
+  display: block;
+  margin: 0 10px;
+  padding: 15px 0 11px;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+}
+.dropmenu li ul{
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: 0 10px 6px -6px #ddd:
+       -moz-box-shadow: 0 10px 6px -6px #ddd;
+            box-shadow: 0 10px 6px -6px #ddd;
+}
+.dropmenu li ul li{
+  width: 100%;
+}
+.dropmenu li ul li a{
+  padding: 13px 15px;
+  border-top: 1px solid #fff;
+  background:#eee;
+  /*background-color: rgba(238,238,238,0.6);*/
+  text-align: left;
+}
+.dropmenu li:hover > a{
+  background:#eee;
+  /*background-color: rgba(202,202,202,0.6);*/
+}
+.dropmenu li a:hover{
+  background:#cacaca;
+  background-color: rgba(202,202,202,0.6);
+}
+
+#normal li ul{
+  display: none;
+}
+#normal li:hover ul{
+  display: block;
+}
+
+
+.g_li_01{
+	margin:0;
+	padding:0;
+	border-left:dotted 1px #ccc;
+	border-right:dotted 1px #ccc;
+}
+
+.g_li_02{
+	margin:0 auto;
+	padding:0;
+	border-right:dotted 1px #ccc;
+}
